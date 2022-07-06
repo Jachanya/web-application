@@ -52,7 +52,7 @@ export const CardImg = styled.img`
 `
 
 export const CardInfo = styled.h5`
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Splash', cursive;
     font-size: 1.1rem;
     text-align: center;
     padding-left: 1rem;
