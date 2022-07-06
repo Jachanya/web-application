@@ -76,6 +76,7 @@ export const CardLinkContainer = styled.div`
 export const CardLink = styled(Link)`
     padding-top: 0.5rem;
     color: #9433FF;
+    font-family: 'Encode Sans Expanded', sans-serif;
     text-align: center;
     text-decoration: none;
     white-space: nowrap;
