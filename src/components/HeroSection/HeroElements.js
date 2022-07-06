@@ -45,7 +45,7 @@ export const HeroContent = styled.div`
     max-width: 1200px;
     min-width: 300px;
     min-height: 200px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Encode Sans Expanded', sans-serif;
     padding: 8px 24px;
     display: flex;
     flex-direction: column;
