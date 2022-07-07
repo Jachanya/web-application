@@ -33,6 +33,7 @@ export const ListMenu = styled.ul`
 export const ListItem = styled(motion.li)`
     list-style: none;
     color: white;
+    font-weight: bold;
     margin: 10px;
     font-family: 'Encode Sans Expanded', sans-serif;
     cursor: pointer;
