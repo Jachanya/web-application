@@ -23,7 +23,7 @@ const cardInfos = [
         direction: "100%"
     },
     {
-        id: 1,
+        id: 2,
         link: "/joinus",
         info: "Become a part of our team",
         url: teamImg,
