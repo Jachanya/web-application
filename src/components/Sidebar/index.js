@@ -6,20 +6,18 @@ import {
     ListMenu
 } from './SidebarElements';
 
-const variants = {
-    open: { opacity: 1, x: 0 },
-    closed: { opacity: 0, x: "-100%" },
-}
+const listVariants = {
+    open: { opacity: 1, x: 0},
+    closed: { opacity: 0, x: "-10vh"},
+  }
 
 const Sidebar = (props) => {
   return (
     <SidebarContainer
-        animate={props.isSidebarActive ? "open" : "closed"}
-        variants={variants}
-        transition={{
-            type: "spring",
-            delay:0.2
-        }}
+        animate={props.animate}
+        variants={props.variants}
+        transition={props.transition}
+        initial={props.initial}
         >
         <SidebarMdOutlineCancel 
             color="#9433FF" 
@@ -28,12 +26,14 @@ const Sidebar = (props) => {
 
         <ListMenu>
             <ListItem 
+                variants={listVariants}
                 whileHover={{
                     scale: 1.1,
                     color: "#9433FF"
                 }}
                 >Sign In</ListItem>
             <ListItem
+                variants={listVariants}
                 whileHover={{
                     scale: 1.1,
                     color:"#9433FF" 

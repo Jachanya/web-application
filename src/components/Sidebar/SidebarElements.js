@@ -22,7 +22,7 @@ export const SidebarMdOutlineCancel = styled(MdOutlineCancel)`
     cursor: pointer;
 `
 
-export const ListMenu = styled.ul`
+export const ListMenu = styled(motion.ul)`
     display: flex;
     flex-direction: column;
     align-items: center;
