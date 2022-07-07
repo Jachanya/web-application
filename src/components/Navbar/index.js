@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {CgProfile} from 'react-icons/cg';
 
 import {
@@ -7,13 +7,10 @@ import {
     NavLogo,
     NavMenu,
     NavBtn,
-    NavMobile,
-    NavRiArrowDropDownLine
+    NavMobile
 } from './NavbarElements';
 
-const Navbar = () => {
-  const [isDropped, setIsDropped] = useState(false);
-  console.log(isDropped)
+const Navbar = (props) => {
   return (
     <Nav>
         <NavContainer>
@@ -22,9 +19,9 @@ const Navbar = () => {
                 <NavBtn to="/login">Log In</NavBtn>
                 <NavBtn to="/signup">Sign Up</NavBtn>
             </NavMenu>
-            <NavMobile onClick={()=>setIsDropped(!isDropped)}>
-                <CgProfile size={35} color="#9433FF" />
-                <NavRiArrowDropDownLine size={35} color="#9433FF" drop={isDropped}/>
+            <NavMobile onClick={()=>props.setIsSidebarActive(!props.isSidebarActive)}>
+                <CgProfile size={45} color="#9433FF" />
+                
             </NavMobile>
         </NavContainer>
     </Nav>
