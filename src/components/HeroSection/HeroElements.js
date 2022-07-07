@@ -31,6 +31,10 @@ export const HeroBg = styled.div`
     height: 100%;
     overflow: hidden;
 `
+export const HeroBgMobile = styled.div`
+    display: none;
+`
+export const HeroBgImg = styled.img`` 
 
 export const VideoBg = styled.video`
     width: 100%;

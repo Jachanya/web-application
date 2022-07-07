@@ -8,17 +8,25 @@ import {
     HeroAddress,
     HeroInputContainer,
     Button as HeroBtn,
-    HeroFaMapMarkerAlt
+    HeroFaMapMarkerAlt,
+    HeroBgMobile,
+    HeroBgImg
 } from './HeroElements';
 import TitleGen from '../TitleGen';
 import Video from '../../videos/heroVideo.mp4';
+import bgImg from '../../images/bg-img.jpg';
 
 const HeroSection = () => {
   return (
     <HeroContainer>
         <HeroBg>
-            <VideoBg playsInLine autoPlay loop muted src={Video} type='video/mp4'/>
+            <VideoBg playsInLine defaultMuted autoPlay loop muted src={Video} type='video/mp4'/>
         </HeroBg>
+        <HeroBgMobile>
+            <HeroBgImg src={bgImg} alt="">
+
+            </HeroBgImg>
+        </HeroBgMobile>
         <HeroContent>
             <TitleGen />
             <HeroAddress>
