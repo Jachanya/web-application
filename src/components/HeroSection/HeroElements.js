@@ -49,13 +49,13 @@ export const HeroContent = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: end;
-    bottom: 100px;
     align-items: center;
     position: relative;
+    margin-bottom: 3rem;
+    top: 0vh;
 
     @media screen and (max-width: 580px){
         width: 90%;
-        align-items: center;
     }
 `
 
@@ -120,7 +120,7 @@ export const  Button = styled.button`
     outline: none;
     border: none;
     min-width: 100px;
-    min-height: 40px;
+    min-height: 50px;
     transition: all 0.2s ease-in-out;
     &:hover {
         transition: all 0.2s ease-in-out;
