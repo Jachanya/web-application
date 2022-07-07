@@ -43,18 +43,18 @@ export const VideoBg = styled.video`
 export const HeroContent = styled.div`
     z-index: 3;
     max-width: 1200px;
-    min-width: 300px;
     min-height: 200px;
     font-family: 'Encode Sans Expanded', sans-serif;
     padding: 8px 24px;
     display: flex;
     flex-direction: column;
     justify-content: end;
-    align-items: start;
+    bottom: 100px;
+    align-items: center;
     position: relative;
-    bottom: 10%;
+
     @media screen and (max-width: 580px){
-        width: 80%;
+        width: 90%;
         align-items: center;
     }
 `
@@ -71,7 +71,7 @@ export const HeroAddress = styled.div`
     @media screen and (max-width: 480px){
         flex-direction: column;
         gap: 1rem;
-        width: 90%;
+        width: 95%;
     }
 `
 
@@ -80,7 +80,7 @@ export const HeroInputContainer = styled.div`
     width: 350px;
     min-height: 50px;
 
-    @media screen and (max-width: 380px){
+    @media screen and (max-width: 420px){
         width: 100%;
     }
 `
