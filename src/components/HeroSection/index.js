@@ -23,9 +23,7 @@ const HeroSection = () => {
             <VideoBg playsInLine autoPlay loop muted src={Video} type='video/mp4'/>
         </HeroBg>
         <HeroBgMobile>
-            <HeroBgImg src={bgImg} alt="">
-
-            </HeroBgImg>
+            <HeroBgImg src={bgImg} alt=""/>
         </HeroBgMobile>
         <HeroContent>
             <TitleGen />

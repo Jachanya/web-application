@@ -21,7 +21,7 @@ const Sidebar = (props) => {
         >
         <SidebarMdOutlineCancel 
             color="#9433FF" 
-            size={45} 
+            size={35} 
             onClick={()=>props.setIsSidebarActive(false)}/>
 
         <ListMenu>

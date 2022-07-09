@@ -20,7 +20,7 @@ const Navbar = (props) => {
                 <NavBtn to="/signup">Sign Up</NavBtn>
             </NavMenu>
             <NavMobile onClick={()=>props.setIsSidebarActive(!props.isSidebarActive)}>
-                <CgProfile size={45} color="#9433FF" />
+                <CgProfile size={35} color="#9433FF" />
                 
             </NavMobile>
         </NavContainer>

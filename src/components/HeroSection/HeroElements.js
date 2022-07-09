@@ -30,11 +30,34 @@ export const HeroBg = styled.div`
     width: 100%;
     height: 100%;
     overflow: hidden;
+
+    @media screen and (max-width: 420px){
+        display: none;   
+    }
 `
 export const HeroBgMobile = styled.div`
     display: none;
+    @media screen and (max-width: 420px){
+        display: block;
+        height: 95vh;
+        position: absolute;
+        
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
 `
-export const HeroBgImg = styled.img`` 
+export const HeroBgImg = styled.img`
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+    -o-object-fit: cover;
+` 
 
 export const VideoBg = styled.video`
     width: 100%;

@@ -5,10 +5,9 @@ import {motion} from 'framer-motion';
 export const CardContainer = styled(motion.div)`
     display: flex;
     flex-direction: column;
-    flex-basis: 100%;
     padding: 0.3rem;
     height: 500px;
-    
+    min-width: 30%;
     max-width: 400px;
     align-items: center;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
@@ -16,10 +15,25 @@ export const CardContainer = styled(motion.div)`
     
     @media screen and (max-width: 900px){
         width: 70%;
+        height: 400px;
+        max-height: 400px;
+        min-height: 380px;
+        
+        min-width: 80%;
     }
 
     @media screen and (max-width: 700px){
         width: 80%;
+        max-height: 400px;
+        
+        min-height: 380px;
+    }
+
+    @media screen and (max-width: 280px){
+        width: 90%;
+        max-height: 400px;
+        
+        min-height: 380px;
     }
 `
 
@@ -35,11 +49,11 @@ export const CardImgContainer = styled.div`
 
     
     @media screen and (max-width: 900px){
-        height: 450px;
+        height: 80%;
     }
 
     @media screen and (max-width: 700px){
-        height: 400px;
+        height: 80%;
     }
 `
 
