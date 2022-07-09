@@ -11,7 +11,8 @@ const variants = {
       when: "beforeChildren",
       staggerChildren: 0.1
   }},
-  closed: { opacity: 0, x: "-100%" },
+  closed: { opacity: 0, x: ["0%","100%"] },
+  exit: {opacity: 0, x: -100}
 }
 
 const LandingPage = () => {
@@ -31,6 +32,7 @@ const LandingPage = () => {
               type: "spring",
               delay:0.2
           }}
+          exit="exit"
           initial="closed"
           setIsSidebarActive = {setIsSidebarActive}
           />

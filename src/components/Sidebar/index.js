@@ -8,7 +8,7 @@ import {
 
 const listVariants = {
     open: { opacity: 1, x: 0},
-    closed: { opacity: 0, x: "-10vh"},
+    closed: { opacity: 0, x: "10vh"},
   }
 
 const Sidebar = (props) => {
