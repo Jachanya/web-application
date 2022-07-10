@@ -11,7 +11,7 @@ function App() {
   return (
       <AnimatePresence exitBeforeEnter>
         <Routes Key={location.pathname} location={location}>
-          <Route path="/web-application/" element={<LandingPage />}>
+          <Route path="/web-application" element={<LandingPage />}>
           </Route>
           <Route path="/web-application/restaurant" element={<RestLandPage />} />
           <Route path="/web-application/deliver" element={<DeliverLandPage />} />
