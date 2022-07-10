@@ -14,7 +14,7 @@ const Navbar = (props) => {
   return (
     <Nav>
         <NavContainer>
-            <NavLogo to="/">AFoodo</NavLogo>
+            <NavLogo to="/web-application">AFoodo</NavLogo>
             <NavMenu>
                 <NavBtn to="/login">Log In</NavBtn>
                 <NavBtn to="/signup">Sign Up</NavBtn>
