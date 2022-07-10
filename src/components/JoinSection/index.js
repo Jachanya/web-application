@@ -10,21 +10,21 @@ import {
 const cardInfos = [
     {
         id: 0,
-        link:"/deliver",
+        link:"/web-application/deliver",
         info: "Deliver with AFoodo",
         url: deliveryImg,
         direction: "-100%"
     },
     {
         id: 1,
-        link: "/restaurant",
+        link: "/web-application/restaurant",
         info: "Connect your restaurant with millions of people",
         url: restaurantImg,
         direction: "100%"
     },
     {
         id: 2,
-        link: "/team",
+        link: "/web-application/team",
         info: "Become a part of our team",
         url: teamImg,
         direction: "100%"
