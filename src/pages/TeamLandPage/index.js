@@ -2,8 +2,11 @@ import React from 'react'
 import {
     TeamContainer
 } from './TeamElements';
-import Navbar from '../../components/Navbar';
+import HeroSection from '../../components/HeroSection';
 
+import Navbar from '../../components/Navbar';
+import Video from '../../videos/supportVideo.mp4';
+import bgImg from '../../images/customerSupport.jpg';
 const TeamLandPage = () => {
   return (
     <TeamContainer
@@ -24,7 +27,11 @@ const TeamLandPage = () => {
             duration: 1
         }}>
         <Navbar />
-      Become a team member
+        <HeroSection 
+        videoSrc = {Video}
+        imgSrc = {bgImg}
+        placeHolder = "Enter your location"
+        />
     </TeamContainer>
   )
 }
