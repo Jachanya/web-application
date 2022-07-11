@@ -2,7 +2,12 @@ import React from 'react';
 import {
     RestaurantContainer
 } from './RestaurantElements';
+
+import HeroSection from '../../components/HeroSection';
+
 import Navbar from '../../components/Navbar';
+import Video from '../../videos/restaurantVideo.mp4';
+import bgImg from '../../images/restaurantImg.jpg';
 
 const RestLandPage = () => {
   return (
@@ -24,7 +29,11 @@ const RestLandPage = () => {
             duration: 1
         }}>
         <Navbar />
-      Hey
+        <HeroSection 
+        videoSrc = {Video}
+        imgSrc = {bgImg}
+        placeHolder = "Enter restaurant location"
+        />
     </RestaurantContainer>
   )
 }

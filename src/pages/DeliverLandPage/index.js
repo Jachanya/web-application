@@ -2,7 +2,13 @@ import React from 'react'
 import {
     DeliverContainer
 } from './DeliverElements';
+
+import HeroSection from '../../components/HeroSection';
+
 import Navbar from '../../components/Navbar';
+import Video from '../../videos/foodDeliveryVideo.mp4';
+import bgImg from '../../images/foodDeliveryImg.jpg';
+
 const DeliverLandPage = () => {
   return (
     <DeliverContainer
@@ -22,7 +28,11 @@ const DeliverLandPage = () => {
             duration: 1
         }}>
         <Navbar/>
-        Deliver
+        <HeroSection 
+        videoSrc = {Video}
+        imgSrc = {bgImg}
+        placeHolder = "Enter your location"
+        />
     </DeliverContainer>
   )
 }

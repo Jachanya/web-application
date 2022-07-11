@@ -5,6 +5,9 @@ import HeroSection from '../../components/HeroSection';
 import JoinSection from '../../components/JoinSection';
 import FooterSection from '../../components/FooterSection';
 
+import Video from '../../videos/heroVideo.mp4';
+import bgImg from '../../images/bg-img.jpg';
+
 const variants = {
   open: { opacity: 1, x: 0 , transition: {
       delay: 0.2,
@@ -36,7 +39,11 @@ const LandingPage = () => {
           initial="closed"
           setIsSidebarActive = {setIsSidebarActive}
           />
-      <HeroSection />
+      <HeroSection 
+        videoSrc = {Video}
+        imgSrc = {bgImg}
+        placeHolder = "Enter delivery address"
+        />
       <JoinSection />
       <FooterSection />
     </div>

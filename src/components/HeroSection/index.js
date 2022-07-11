@@ -13,17 +13,15 @@ import {
     HeroBgImg
 } from './HeroElements';
 import TitleGen from '../TitleGen';
-import Video from '../../videos/heroVideo.mp4';
-import bgImg from '../../images/bg-img.jpg';
 
-const HeroSection = () => {
+const HeroSection = (props) => {
   return (
     <HeroContainer>
         <HeroBg>
-            <VideoBg playsInLine autoPlay loop muted src={Video} type='video/mp4'/>
+            <VideoBg playsInLine autoPlay loop muted src={props.videoSrc} type='video/mp4'/>
         </HeroBg>
         <HeroBgMobile>
-            <HeroBgImg src={bgImg} alt=""/>
+            <HeroBgImg src={props.imgSrc} alt=""/>
         </HeroBgMobile>
         <HeroContent>
             <TitleGen />
@@ -34,7 +32,7 @@ const HeroSection = () => {
                         color="#9433FF"
                     ></HeroFaMapMarkerAlt>
                     <HeroInput 
-                    placeholder="Enter delivery address">
+                    placeholder={props.placeHolder}>
 
                     </HeroInput>
                 </HeroInputContainer>
