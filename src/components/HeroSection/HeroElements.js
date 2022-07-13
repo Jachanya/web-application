@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import {FaMapMarkerAlt} from 'react-icons/fa';
-
+import {motion} from 'framer-motion';
 export const HeroContainer = styled.div`
     background: #0c0c0c;
     display: flex;
@@ -99,6 +99,20 @@ export const HeroAddress = styled.div`
         flex-direction: column;
         gap: 1rem;
         width: 95%;
+    }
+`
+export const HeroH1 = styled(motion.h1)`
+    color: #9433FF;
+    font-size: 2.5rem;
+    max-width: 500px;    
+    text-align: center;
+    
+    @media screen and (max-width: 768px){
+        font-size: 40px;
+    }
+    
+    @media screen and (max-width: 480px){
+        font-size: 32px;
     }
 `
 

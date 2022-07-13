@@ -28,6 +28,7 @@ const TeamLandPage = () => {
         }}>
         <Navbar />
         <HeroSection 
+        header = "Become a part of our team"
         videoSrc = {Video}
         imgSrc = {bgImg}
         placeHolder = "Enter your location"

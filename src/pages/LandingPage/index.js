@@ -40,6 +40,7 @@ const LandingPage = () => {
           setIsSidebarActive = {setIsSidebarActive}
           />
       <HeroSection 
+        titleAnimate = {true}
         videoSrc = {Video}
         imgSrc = {bgImg}
         placeHolder = "Enter delivery address"

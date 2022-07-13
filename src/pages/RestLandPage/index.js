@@ -30,6 +30,7 @@ const RestLandPage = () => {
         }}>
         <Navbar />
         <HeroSection 
+        header = "Connect your restaurant with millions of people"
         videoSrc = {Video}
         imgSrc = {bgImg}
         placeHolder = "Enter restaurant location"

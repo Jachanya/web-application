@@ -10,7 +10,8 @@ import {
     Button as HeroBtn,
     HeroFaMapMarkerAlt,
     HeroBgMobile,
-    HeroBgImg
+    HeroBgImg,
+    HeroH1
 } from './HeroElements';
 import TitleGen from '../TitleGen';
 
@@ -24,7 +25,7 @@ const HeroSection = (props) => {
             <HeroBgImg src={props.imgSrc} alt=""/>
         </HeroBgMobile>
         <HeroContent>
-            <TitleGen />
+            {props.titleAnimate ? <TitleGen /> : <HeroH1>{props.header}</HeroH1>}
             <HeroAddress>
                 <HeroInputContainer>
                     <HeroFaMapMarkerAlt

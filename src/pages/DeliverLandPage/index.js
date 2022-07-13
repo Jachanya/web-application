@@ -29,6 +29,7 @@ const DeliverLandPage = () => {
         }}>
         <Navbar/>
         <HeroSection 
+        header = "Deliver with AFoodo"
         videoSrc = {Video}
         imgSrc = {bgImg}
         placeHolder = "Enter your location"
