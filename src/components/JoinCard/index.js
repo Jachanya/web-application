@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { useNavigate } from "react-router-dom";
 import {
     CardContainer,
     CardImg,
@@ -9,6 +10,10 @@ import {
 } from './JoinCardElements';
 
 const JoinCard = (props) => {
+    const navigate = useNavigate();
+    function handleClick(){
+        navigate(props.link);
+    } 
     return (
         <CardContainer
             animate={{
@@ -22,6 +27,8 @@ const JoinCard = (props) => {
                 scale: 1.1,
                 borderRadius: "20px"
             }}
+
+            onClick = {handleClick}
         >
             <CardImgContainer>
                 <CardImg src={props.url} alt=""/>
