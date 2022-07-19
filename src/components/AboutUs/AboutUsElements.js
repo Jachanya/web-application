@@ -18,4 +18,7 @@ export const AboutUsPara = styled.p`
     font-family: 'Roboto', sans-serif;
     font-size: 1.3rem;
     max-width: 800px;
+    @media screen and (max-width: 800px){
+        margin: 20px;
+    }
 `
