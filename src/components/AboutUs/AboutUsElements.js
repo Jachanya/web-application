@@ -10,16 +10,18 @@ export const AboutUsContainer = styled.div`
 export const Header = styled.h2`
     text-align: center;
     font-size: 2.5rem;
+    margin-bottom: 2rem;
     font-family: 'Roboto', sans-serif;
 `
 
 export const AboutUsPara = styled.p`
-    margin-top: 1rem;
+    margin-bottom: 10rem;
     font-family: 'Roboto', sans-serif;
     font-size: 1.3rem;
     max-width: 800px;
     @media screen and (max-width: 800px){
         margin: 20px;
+        margin-bottom: 10rem;
     }
 `
 
@@ -79,6 +81,6 @@ export const BulletPointP = styled.p`
     margin: auto 1rem;
     @media screen and ( max-width: 800px){
         font-size: 1.1rem;
-        font-weight:400;
+        font-weight: 400;
     }
 `
