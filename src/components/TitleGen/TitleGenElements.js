@@ -7,6 +7,7 @@ export const HeroH1 = styled(motion.h1)`
     max-width: 500px;    
     text-align: center;
     
+    
     @media screen and (max-width: 768px){
         font-size: 40px;
     }

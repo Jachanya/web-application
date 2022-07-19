@@ -107,6 +107,9 @@ export const HeroH1 = styled(motion.h1)`
     max-width: 500px;    
     text-align: center;
     
+    background: -webkit-linear-gradient(90deg, rgba(173,108,177,1) 21%, rgba(148,18,207,1) 46%, rgba(199,18,207,1) 71%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     @media screen and (max-width: 768px){
         font-size: 40px;
     }
