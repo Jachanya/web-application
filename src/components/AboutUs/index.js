@@ -19,9 +19,8 @@ import {
 const AboutUs = () => {
   return (
     <AboutUsContainer>
-      <Header>
-        <span style ={{color: "#9433FF"}}>
-            About</span> us</Header>
+      <Header>About
+        <span style ={{color: "#9433FF"}}> us</span></Header>
       <AboutUsPara>
         AFoodo provide <span style ={{
             color: "#C5B358"}}>
@@ -40,7 +39,7 @@ const AboutUs = () => {
             
             <BulletPoint>
                 <BiRestaurant
-                    size ={50}
+                    size ={45}
                     color= "#9433FF"
                 />
                 <BulletPointH3>Register your restaurant</BulletPointH3>
@@ -49,7 +48,7 @@ const AboutUs = () => {
             </BulletPoint>
             <BulletPoint>
                 <AiOutlineAppstoreAdd
-                    size ={50}
+                    size ={45}
                     color= "#9433FF"
                 />
                 <BulletPointH3>Add available food</BulletPointH3>
@@ -58,7 +57,7 @@ const AboutUs = () => {
             </BulletPoint>
             <BulletPoint>
                 <CgListTree
-                    size ={50}
+                    size ={45}
                     color= "#9433FF"
                 />
                 <BulletPointH3>List them for sale</BulletPointH3>

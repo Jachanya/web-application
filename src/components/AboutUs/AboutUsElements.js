@@ -9,13 +9,13 @@ export const AboutUsContainer = styled.div`
 
 export const Header = styled.h2`
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 2rem;
     font-family: 'Roboto', sans-serif;
 `
 
 export const AboutUsPara = styled.p`
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
     font-family: 'Roboto', sans-serif;
     font-size: 1.3rem;
     max-width: 800px;
@@ -49,6 +49,7 @@ export const BulletPointList = styled.div`
     flex-wrap: wrap;
     justify-content: center;
     gap: 3rem;
+    padding-top: 4rem;
     @media screen and ( max-width: 800px){
         flex-direction: column;
         gap: 4rem;
