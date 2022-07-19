@@ -61,7 +61,7 @@ const AboutUs = () => {
                     size ={50}
                     color= "#9433FF"
                 />
-                <BulletPointH3>List then for sale</BulletPointH3>
+                <BulletPointH3>List them for sale</BulletPointH3>
                 <BulletPointP>Once you have applied to be a business partner, 
                     we would evaluate your submission and promptly respond.</BulletPointP>
             </BulletPoint>
