@@ -104,6 +104,7 @@ export const HeroAddress = styled.div`
 export const HeroH1 = styled(motion.h1)`
     color: #9433FF;
     font-size: 2.5rem;
+    font-weight: 900;
     max-width: 500px;    
     text-align: center;
     
@@ -145,10 +146,11 @@ export const HeroInput = styled.input`
 
 export const HeroFaMapMarkerAlt = styled(FaMapMarkerAlt)`
     position: absolute;
-    left: 0.3rem;
-    top: 30%;
-    margin: 0 auto;
-    height: 40%;
+    bottom: 0;
+    top: 0;
+    left:0;
+    margin: auto 0;
+    margin-left: 0.5rem;
     z-index: 999;
 `
 
@@ -159,6 +161,7 @@ export const  Button = styled.button`
     white-space: nowrap;
     background: #9433FF;
     color: white;
+    padding: 10px;
     cursor: pointer;
     font-size: 20px;
     outline: none;

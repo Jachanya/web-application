@@ -17,14 +17,16 @@ const JoinCard = (props) => {
     return (
         <CardContainer
             animate={{
-                scale: 1
+                scale: 1,
+                y: 0,
+                backgroundColor: "white",
             }}
             transition = {{
-                type: "spring",
-                stiffness: 100,
+                duration: "0.15"
             }}
             whileHover={{
-                scale: 1.1,
+                y: -10,
+                backgroundColor: "#F1F1F1",
                 borderRadius: "20px"
             }}
 

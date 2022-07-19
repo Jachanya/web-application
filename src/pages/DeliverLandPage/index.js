@@ -32,6 +32,7 @@ const DeliverLandPage = () => {
         header = "Deliver with AFoodo"
         videoSrc = {Video}
         imgSrc = {bgImg}
+        button = "Apply Now"
         placeHolder = "Enter your location"
         />
     </DeliverContainer>

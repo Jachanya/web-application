@@ -4,7 +4,7 @@ import {
 } from './RestaurantElements';
 
 import HeroSection from '../../components/HeroSection';
-
+import AboutUs from '../../components/AboutUs'
 import Navbar from '../../components/Navbar';
 import Video from '../../videos/restaurantVideo.mp4';
 import bgImg from '../../images/restaurantImg.jpg';
@@ -30,11 +30,13 @@ const RestLandPage = () => {
         }}>
         <Navbar />
         <HeroSection 
-        header = "Connect your restaurant with millions of people"
-        videoSrc = {Video}
-        imgSrc = {bgImg}
-        placeHolder = "Enter restaurant location"
+            header = "Connect your restaurant with millions of people"
+            videoSrc = {Video}
+            imgSrc = {bgImg}
+            button = "Apply Now"
+            placeHolder = "Enter restaurant location"
         />
+        <AboutUs />
     </RestaurantContainer>
   )
 }

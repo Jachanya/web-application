@@ -29,7 +29,7 @@ const HeroSection = (props) => {
             <HeroAddress>
                 <HeroInputContainer>
                     <HeroFaMapMarkerAlt
-                        size={20}
+                        size="1em"
                         color="#9433FF"
                     ></HeroFaMapMarkerAlt>
                     <HeroInput 
@@ -37,7 +37,7 @@ const HeroSection = (props) => {
 
                     </HeroInput>
                 </HeroInputContainer>
-                <HeroBtn>Search</HeroBtn>
+                <HeroBtn>{props.button}</HeroBtn>
             </HeroAddress>
         </HeroContent>
     </HeroContainer>

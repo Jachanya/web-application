@@ -43,6 +43,7 @@ const LandingPage = () => {
         titleAnimate = {true}
         videoSrc = {Video}
         imgSrc = {bgImg}
+        button = "Search"
         placeHolder = "Enter delivery address"
         />
       <JoinSection />

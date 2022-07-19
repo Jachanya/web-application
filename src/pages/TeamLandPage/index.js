@@ -31,6 +31,7 @@ const TeamLandPage = () => {
         header = "Become a part of our team"
         videoSrc = {Video}
         imgSrc = {bgImg}
+        button = "Apply Now"
         placeHolder = "Enter your location"
         />
     </TeamContainer>
