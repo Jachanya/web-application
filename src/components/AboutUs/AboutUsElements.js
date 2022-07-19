@@ -44,7 +44,6 @@ export const HowItWorkH3 = styled.h2`
 
 export const BulletPointList = styled.div`
     display: flex;
-    min-width: 800px;
     flex-wrap: wrap;
     justify-content: center;
     gap: 3rem;
@@ -61,15 +60,25 @@ export const BulletPoint = styled.div`
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
     align-items: center;
+    justify-content: center;
     gap: 1rem;
     min-width: 360px;
+    
 `
 
 export const BulletPointH3 = styled.h3`
     font-size: 1.4rem;
+    @media screen and ( max-width: 800px){
+        font-size: 1.2rem;
+    }
 `
 
 export const BulletPointP = styled.p`
     max-width: 360px;
     font-size: 1.3rem;
+    margin: auto 1rem;
+    @media screen and ( max-width: 800px){
+        font-size: 1.1rem;
+        font-weight:400;
+    }
 `

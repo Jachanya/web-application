@@ -67,7 +67,7 @@ const AboutUs = () => {
             </BulletPoint>
             <BulletPoint>
                 <SiSimpleanalytics
-                    size ={50}
+                    size ={45}
                     color= "#9433FF"
                 />
                 <BulletPointH3>check out business analytics</BulletPointH3>
