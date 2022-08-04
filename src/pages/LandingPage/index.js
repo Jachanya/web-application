@@ -44,6 +44,7 @@ const LandingPage = () => {
         videoSrc = {Video}
         imgSrc = {bgImg}
         button = "Search"
+        buttonTo = "register/customer"
         placeHolder = "Enter delivery address"
         />
       <JoinSection />

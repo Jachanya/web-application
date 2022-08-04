@@ -37,7 +37,7 @@ const HeroSection = (props) => {
 
                     </HeroInput>
                 </HeroInputContainer>
-                <HeroBtn>{props.button}</HeroBtn>
+                <HeroBtn to={props.buttonTo}>{props.button}</HeroBtn>
             </HeroAddress>
         </HeroContent>
     </HeroContainer>

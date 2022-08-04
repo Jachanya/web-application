@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import {FaMapMarkerAlt} from 'react-icons/fa';
 import {motion} from 'framer-motion';
+import {Link} from 'react-router-dom';
 export const HeroContainer = styled.div`
     background: #0c0c0c;
     display: flex;
@@ -154,7 +155,7 @@ export const HeroFaMapMarkerAlt = styled(FaMapMarkerAlt)`
     z-index: 999;
 `
 
-export const  Button = styled.button`
+export const  Button = styled(Link)`
 
     bottom: 0;
     border-radius: 5px;

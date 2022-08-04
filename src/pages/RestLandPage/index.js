@@ -34,6 +34,7 @@ const RestLandPage = () => {
             videoSrc = {Video}
             imgSrc = {bgImg}
             button = "Apply Now"
+            buttonTo = "register"
             placeHolder = "Enter restaurant location"
         />
         <AboutUs />
