@@ -95,7 +95,8 @@ export const HeroAddress = styled.div`
     flex-direction:row;
     align-items: center;
     gap: 1rem;
-
+    
+    
     @media screen and (max-width: 480px){
         flex-direction: column;
         gap: 1rem;
@@ -125,7 +126,6 @@ export const HeroInputContainer = styled.div`
     position: relative;
     width: 350px;
     min-height: 50px;
-
     @media screen and (max-width: 420px){
         width: 100%;
     }
@@ -163,12 +163,17 @@ export const  Button = styled(Link)`
     background: #9433FF;
     color: white;
     padding: 10px;
+    height: 45%;
+    text-align: center;
+    padding: auto;
+    text-decoration: none;
     cursor: pointer;
     font-size: 20px;
     outline: none;
     border: none;
     min-width: 100px;
-    min-height: 50px;
+    margin: 1rem;
+    
     transition: all 0.2s ease-in-out;
     &:hover {
         transition: all 0.2s ease-in-out;
