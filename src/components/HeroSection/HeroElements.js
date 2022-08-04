@@ -156,7 +156,9 @@ export const HeroFaMapMarkerAlt = styled(FaMapMarkerAlt)`
 `
 
 export const  Button = styled(Link)`
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
     bottom: 0;
     border-radius: 5px;
     white-space: nowrap;
