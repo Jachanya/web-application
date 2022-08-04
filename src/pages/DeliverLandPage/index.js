@@ -34,7 +34,7 @@ const DeliverLandPage = () => {
         imgSrc = {bgImg}
         button = "Apply Now"
         placeHolder = "Enter your location"
-        buttonTo = "/register/deliver"
+        buttonTo = "register"
         />
     </DeliverContainer>
   )

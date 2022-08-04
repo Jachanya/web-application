@@ -6,6 +6,8 @@ import RestLandPage from './pages/RestLandPage';
 import DeliverLandPage from './pages/DeliverLandPage';
 import TeamLandPage from './pages/TeamLandPage';
 import FormRestaurant from './components/FormRestaurant'
+import FormTeam from './components/FormTeam'
+import FormDeliver from './components/FormDeliver'
 function App() {
   const location = useLocation();
   return (
@@ -16,6 +18,8 @@ function App() {
           <Route path="/web-application/restaurant" element={<RestLandPage />} >
           </Route>
           <Route path="/web-application/restaurant/register" element={<FormRestaurant />}/>
+          <Route path="/web-application/team/register" element={<FormTeam />}/>
+          <Route path="/web-application/deliver/register" element={<FormDeliver />}/>
           <Route path="/web-application/deliver" element={<DeliverLandPage />} />
           <Route path="/web-application/team" element={<TeamLandPage />} />
           

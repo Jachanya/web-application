@@ -32,7 +32,7 @@ const TeamLandPage = () => {
         videoSrc = {Video}
         imgSrc = {bgImg}
         button = "Apply Now"
-        buttonTo = "register/team"
+        buttonTo = "register"
         placeHolder = "Enter your location"
         />
     </TeamContainer>
