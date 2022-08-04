@@ -165,7 +165,7 @@ export const  Button = styled(Link)`
     background: #9433FF;
     color: white;
     padding: 10px;
-    height: 45%;
+    height: 43%;
     text-align: center;
     padding: auto;
     text-decoration: none;
