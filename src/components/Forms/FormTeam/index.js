@@ -5,6 +5,7 @@ import {
     InputField,
     Label,
     Input,
+    H1,
     Button
 } from '../FormElements';
 import { send } from 'emailjs-com';
@@ -56,6 +57,11 @@ const FormTeam = () => {
       return (
         <FormContainer>
         <FormRest onSubmit={handleSubmit}>
+          <H1>
+          Welcome to Afoodo, thank you for your interest!
+           Please fill in the fields below
+           and we will contact you shortly!
+          </H1>
           <InputField>
             <Label htmlFor="full_name">Full Name:</Label>
             <Input 

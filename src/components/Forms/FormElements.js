@@ -12,6 +12,11 @@ export const FormRest = styled.form`
     gap: 0.5rem;
     max-width: 800px;
 `
+export const H1 = styled.h1`
+    margin-bottom: 2rem;
+    color: #9433FF;
+    font-size: 1.3rem;
+`
 
 export const InputField = styled.div`
     display: flex;
