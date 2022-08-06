@@ -21,7 +21,7 @@ export const InputField = styled.div`
 
 export const Label = styled.label`
     font-family: 'Oleo Script Swash Caps', cursive;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 `
 
 export const Input = styled.input`
