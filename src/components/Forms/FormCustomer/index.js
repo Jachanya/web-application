@@ -3,6 +3,7 @@ import {
     FormContainer,
     FormRest
 } from './FormElements'
+import { send } from 'emailjs-com';
 
 const FormCustomer = () => {
     const [register, setRegister] = useState({
@@ -22,10 +23,34 @@ const FormCustomer = () => {
             };
         });
       };
+
+      const handleSubmit = (event) => {
+        event.preventDefault();
+        send(
+            process.env.REACT_APP_SERVICE_ID,
+            process.env.REACT_APP_TEMPLATE_ID,
+            register,
+            process.env.REACT_APP_PUBLIC_KEY
+        )
+        .then((response) => {
+            console.log('SUCCESS!', response.status, response.text);
+            setRegister(()=>{
+              return {
+                  fullName: "",
+                  phoneNumber: "",
+                  emailAddress: "",
+                  city: ""
+              }
+            })
+        })
+        .catch((err) => {
+            console.log('FAILED...', err);
+        });
+      }
     
       return (
         <FormContainer>
-        <FormRest>
+        <FormRest onSubmit={handleSubmit}>
           <label htmlFor="full_name">Full Name:</label>
           <input 
           type="text" 
