@@ -79,7 +79,7 @@ const Form = () => {
       
 
       <InputField>
-        <Label htmlFor="email_address">Email Address</Label>
+        <Label htmlFor="email_address">Email Address:</Label>
         <Input 
         type="email" 
         id="email_address"
@@ -91,7 +91,7 @@ const Form = () => {
       
 
       <InputField>
-        <Label htmlFor="restaurant_name">Restaurant Name</Label>
+        <Label htmlFor="restaurant_name">Restaurant Name:</Label>
         <Input 
         type="text" 
         id="restaurant_name"
@@ -102,7 +102,7 @@ const Form = () => {
       
       
       <InputField>
-        <Label htmlFor="city">City</Label>
+        <Label htmlFor="city">City:</Label>
         <Input 
         type="text" 
         id="city"

@@ -77,7 +77,7 @@ const FormTeam = () => {
           </InputField>
           
           <InputField>
-            <Label htmlFor="email_address">Email Address</Label>
+            <Label htmlFor="email_address">Email Address:</Label>
             <Input  
             type="email" 
             id="email_address"
@@ -88,7 +88,7 @@ const FormTeam = () => {
           </InputField>
           
           <InputField>
-            <Label htmlFor="city">City</Label>
+            <Label htmlFor="city">City:</Label>
             <Input  
             type="text" 
             id="city"
