@@ -1,8 +1,12 @@
 import React, {useState} from 'react'
 import {
     FormContainer,
-    FormRest
-} from './FormElements';
+    FormRest,
+    InputField,
+    Label,
+    Input,
+    Button
+} from '../FormElements';
 import { send } from 'emailjs-com';
 
 
@@ -52,40 +56,49 @@ const FormTeam = () => {
       return (
         <FormContainer>
         <FormRest onSubmit={handleSubmit}>
-          <label htmlFor="full_name">Full Name:</label>
-          <input 
-          type="text" 
-          id="full_name"
-          name="fullName"
-          value={register.fullName}
-          onChange={handleChange}></input>
-    
-          <label htmlFor="phone_number">Phone Number:</label>
-          <input 
-          type="tel" 
-          id="phone_number"
-          name="phoneNumber"
-          value={register.phoneNumber}
-          onChange={handleChange}></input>
-    
-          <label htmlFor="email_address">Email Address</label>
-          <input 
-          type="email" 
-          id="email_address"
-          name="emailAddress"
-          value={register.emailAddress}
-          onChange={handleChange}
-          ></input>
+          <InputField>
+            <Label htmlFor="full_name">Full Name:</Label>
+            <Input 
+            type="text" 
+            id="full_name"
+            name="fullName"
+            value={register.fullName}
+            onChange={handleChange}></Input >
+          </InputField>
           
-          <label htmlFor="city">City</label>
-          <input 
-          type="text" 
-          id="city"
-          name="city"
-          value={register.city}
-          onChange={handleChange}
-          ></input>
-          <input type="submit"></input>
+          <InputField>
+            <Label htmlFor="phone_number">Phone Number:</Label>
+            <Input  
+            type="tel" 
+            id="phone_number"
+            name="phoneNumber"
+            value={register.phoneNumber}
+            onChange={handleChange}></Input >
+          </InputField>
+          
+          <InputField>
+            <Label htmlFor="email_address">Email Address</Label>
+            <Input  
+            type="email" 
+            id="email_address"
+            name="emailAddress"
+            value={register.emailAddress}
+            onChange={handleChange}
+            ></Input>
+          </InputField>
+          
+          <InputField>
+            <Label htmlFor="city">City</Label>
+            <Input  
+            type="text" 
+            id="city"
+            name="city"
+            value={register.city}
+            onChange={handleChange}
+            ></Input >
+          </InputField>
+          
+          <Button  type="submit"></Button >
     
         </FormRest>
         </FormContainer>
