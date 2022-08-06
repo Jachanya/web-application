@@ -60,6 +60,7 @@ const FormTeam = () => {
             <Label htmlFor="full_name">Full Name:</Label>
             <Input 
             type="text" 
+            required
             id="full_name"
             name="fullName"
             value={register.fullName}
@@ -72,6 +73,7 @@ const FormTeam = () => {
             type="tel" 
             id="phone_number"
             name="phoneNumber"
+            required
             value={register.phoneNumber}
             onChange={handleChange}></Input >
           </InputField>
@@ -82,6 +84,7 @@ const FormTeam = () => {
             type="email" 
             id="email_address"
             name="emailAddress"
+            required
             value={register.emailAddress}
             onChange={handleChange}
             ></Input>
@@ -93,6 +96,7 @@ const FormTeam = () => {
             type="text" 
             id="city"
             name="city"
+            required
             value={register.city}
             onChange={handleChange}
             ></Input >

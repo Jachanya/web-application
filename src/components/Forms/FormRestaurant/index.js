@@ -63,6 +63,7 @@ const Form = () => {
         id="full_name"
         name="fullName"
         value={register.fullName}
+        required
         onChange={handleChange}></Input>
       </InputField>
       
@@ -73,6 +74,7 @@ const Form = () => {
         type="tel" 
         id="phone_number"
         name="phoneNumber"
+        required
         value={register.phoneNumber}
         onChange={handleChange}></Input>
       </InputField>
@@ -84,6 +86,7 @@ const Form = () => {
         type="email" 
         id="email_address"
         name="emailAddress"
+        required
         value={register.emailAddress}
         onChange={handleChange}
         ></Input>
@@ -96,6 +99,7 @@ const Form = () => {
         type="text" 
         id="restaurant_name"
         name="restaurantName"
+        required
         value={register.restaurantName}
         onChange={handleChange}></Input>
       </InputField>
@@ -107,6 +111,7 @@ const Form = () => {
         type="text" 
         id="city"
         name="city"
+        required
         value={register.city}
         onChange={handleChange}
         ></Input>
