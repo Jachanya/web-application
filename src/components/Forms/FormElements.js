@@ -17,6 +17,7 @@ export const FormRest = styled.form`
 export const H1 = styled.h1`
     margin-bottom: 2rem;
     color: #9433FF;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.3rem;
 `
 
