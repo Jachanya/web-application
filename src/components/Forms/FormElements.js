@@ -2,15 +2,17 @@ import styled from 'styled-components';
 
 export const FormContainer = styled.div`
     padding: 2rem;
-    
 `
 
 export const FormRest = styled.form`
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     margin: 3rem auto;
     gap: 0.5rem;
     max-width: 800px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
 `
 export const H1 = styled.h1`
     margin-bottom: 2rem;

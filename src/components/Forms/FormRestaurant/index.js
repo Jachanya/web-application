@@ -58,8 +58,10 @@ const Form = () => {
     <FormContainer>
       
     <FormRest onSubmit={handleSubmit}>
-    <H1>
-      Welcome to Afoodo, thank you for your interest!
+      <H1>
+      <span style = {{
+        color: "black"
+      }}>Welcome to Afoodo,</span> thank you for your interest!
        Please fill in the fields below and we will
         contact you shortly!
       </H1>
